@@ -1,0 +1,40 @@
+{
+  "name": "vancodx/php-testing",
+  "description": "VanCodX PHP Testing",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "vancodx@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VanCodX\\Testing\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.3",
+    "phpstan/phpstan": "^2.0.3",
+    "phpunit/phpunit": "^11.5.0"
+  },
+  "require-dev": {
+    "vancodx/php-coding-style": "^1.1.0"
+  },
+  "scripts": {
+    "test": [
+      "php-cs-fixer fix",
+      "phpunit"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
