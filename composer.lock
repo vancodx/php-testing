@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a28d756adee3243c736c909c32540d2",
+    "content-hash": "0eb362fcb2dd131f890018816c7097f0",
     "packages": [
         {
             "name": "myclabs/deep-copy",
@@ -4297,16 +4297,16 @@
         },
         {
             "name": "vancodx/php-coding-style",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vancodx/php-coding-style.git",
-                "reference": "310aa55c02aa160cebb0e8471c48d2313bd63ef3"
+                "reference": "121c5f3c1b211993676393a2528c08d1f2527b09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vancodx/php-coding-style/zipball/310aa55c02aa160cebb0e8471c48d2313bd63ef3",
-                "reference": "310aa55c02aa160cebb0e8471c48d2313bd63ef3",
+                "url": "https://api.github.com/repos/vancodx/php-coding-style/zipball/121c5f3c1b211993676393a2528c08d1f2527b09",
+                "reference": "121c5f3c1b211993676393a2528c08d1f2527b09",
                 "shasum": ""
             },
             "require": {
@@ -4333,9 +4333,9 @@
             "description": "VanCodX PHP Coding Style",
             "support": {
                 "issues": "https://github.com/vancodx/php-coding-style/issues",
-                "source": "https://github.com/vancodx/php-coding-style/tree/1.0.0"
+                "source": "https://github.com/vancodx/php-coding-style/tree/1.1.0"
             },
-            "time": "2024-12-08T14:59:22+00:00"
+            "time": "2024-12-08T15:35:08+00:00"
         }
     ],
     "aliases": [],

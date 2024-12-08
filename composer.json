@@ -21,7 +21,7 @@
     "phpunit/phpunit": "^11.5.0"
   },
   "require-dev": {
-    "vancodx/php-coding-style": "^1.0.0"
+    "vancodx/php-coding-style": "^1.1.0"
   },
   "scripts": {
     "test": [
