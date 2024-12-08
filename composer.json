@@ -14,6 +14,11 @@
       "VanCodX\\Testing\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
   "minimum-stability": "stable",
   "require": {
     "php": "^8.3",
@@ -25,7 +30,8 @@
   },
   "scripts": {
     "test": [
-      "php-cs-fixer fix"
+      "php-cs-fixer fix",
+      "phpunit"
     ]
   },
   "config": {
