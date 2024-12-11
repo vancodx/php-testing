@@ -1,6 +1,12 @@
 {
   "name": "vancodx/php-testing",
   "description": "VanCodX PHP Testing",
+  "keywords": [
+    "vancodx",
+    "testing",
+    "phpstan",
+    "phpunit"
+  ],
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -23,18 +29,21 @@
   "require": {
     "php": "^8.3",
     "phpstan/phpstan": "^2.0.3",
-    "phpunit/phpunit": "^11.5.0"
+    "phpunit/phpunit": "^11.5.1"
   },
   "require-dev": {
-    "vancodx/php-coding-style": "^1.1.0"
+    "roave/security-advisories": "dev-latest",
+    "vancodx/php-coding-style": "^1.2.0"
   },
   "scripts": {
     "test": [
       "php-cs-fixer fix",
+      "phpcs -p",
       "phpunit"
     ]
   },
   "config": {
-    "sort-packages": true
+    "sort-packages": true,
+    "optimize-autoloader": true
   }
 }

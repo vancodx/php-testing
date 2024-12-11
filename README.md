@@ -12,7 +12,7 @@ composer require --dev vancodx/php-testing
 
 Create "phpunit.xml.dist" file in the root directory of your project with the following contents:
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.4/phpunit.xsd">
@@ -26,15 +26,22 @@ Create "phpunit.xml.dist" file in the root directory of your project with the fo
 
 Add the following lines into "composer.json" file of your project:
 
-```
+```json
+{
   "scripts": {
     "test": [
       "phpunit"
     ]
   }
+}
 ```
 
-Add "phpunit.xml" and '.phpunit.result.cache' into your ".gitignore" file.
+Add the following lines into your ".gitignore" file:
+
+```
+.phpunit.result.cache
+phpunit.xml
+```
 
 Usage
 -----
