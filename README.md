@@ -10,6 +10,19 @@ Install this package with the following command:
 composer require --dev vancodx/php-testing
 ```
 
+Create ".phpstan.neon.dist" file in the root directory of your project with the following contents:
+
+```neon
+includes:
+  - vendor/vancodx/php-testing/phpstan-extension.neon
+
+parameters:
+  level: 6
+  paths:
+    - src
+    - tests
+```
+
 Create "phpunit.xml.dist" file in the root directory of your project with the following contents:
 
 ```xml
@@ -30,6 +43,7 @@ Add the following lines into "composer.json" file of your project:
 {
   "scripts": {
     "test": [
+      "phpstan analyze",
       "phpunit"
     ]
   }
@@ -39,6 +53,7 @@ Add the following lines into "composer.json" file of your project:
 Add the following lines into your ".gitignore" file:
 
 ```
+.phpstan.neon
 .phpunit.result.cache
 phpunit.xml
 ```
