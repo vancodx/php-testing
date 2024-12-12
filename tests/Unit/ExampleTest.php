@@ -8,6 +8,6 @@ class ExampleTest extends TestCase
 {
     public function testExample(): void
     {
-        $this->assertTrue(true);
+        $this->assertGreaterThan(1, time());
     }
 }
