@@ -14,7 +14,7 @@ Create ".phpstan.neon.dist" file in the root directory of your project with the 
 
 ```neon
 includes:
-  - vendor/vancodx/php-testing/phpstan-extension.neon
+  - vendor/vancodx/php-testing/phpstan-extension/extension.php
 
 parameters:
   level: 6
