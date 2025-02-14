@@ -3,9 +3,9 @@
 namespace VanCodX\Testing\PHPUnit;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
-use VanCodX\Testing\PHPUnit\Traits\AssertsTrait;
+use VanCodX\Testing\PHPUnit\Traits\AssertTraits;
 
 abstract class TestCase extends BaseTestCase
 {
-    use AssertsTrait;
+    use AssertTraits;
 }

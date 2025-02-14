@@ -2,7 +2,7 @@
 
 namespace VanCodX\Testing\PHPUnit\Traits;
 
-trait AssertsTrait
+trait AssertTraits
 {
     use ExpectExceptionTrait;
 }
