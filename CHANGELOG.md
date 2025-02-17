@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+1.5.0
+-----
+
+### Modified:
+* PHPUnit version upgraded to 12.
+
 1.4.0
 -----
 
