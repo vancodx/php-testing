@@ -17,7 +17,7 @@ RUN install-php-extensions xdebug zip
 
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
-RUN echo 'xdebug.mode=coverage' >> "$PHP_INI_DIR/conf.d/docker-php.ini"
+RUN echo 'xdebug.mode = coverage' >> "$PHP_INI_DIR/conf.d/docker-php.ini"
 
 WORKDIR /usr/src/myapp
 
