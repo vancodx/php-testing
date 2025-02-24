@@ -80,3 +80,12 @@ Use the following command:
 ```
 composer test
 ```
+
+Running tests
+-------------
+
+Use the following command for running the tests inside a Docker container:
+
+```
+docker compose up --build tests
+```

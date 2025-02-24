@@ -8,10 +8,10 @@ trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{json,xml,neon}]
+[*.{json,neon,xml,yml}]
 indent_size = 2
 
-[*.{xml,neon}.dist]
+[*.{neon,xml}.dist]
 indent_size = 2
 
 [*.md]

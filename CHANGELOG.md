@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+1.6.0
+-----
+
+### Added:
+* Dockerfile for running the tests.
+
 1.5.0
 -----
 
