@@ -5,6 +5,7 @@
     "vancodx",
     "testing",
     "phpstan",
+    "static analysis",
     "phpunit",
     "mockery"
   ],
