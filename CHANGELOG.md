@@ -34,4 +34,4 @@ Change Log
 
 ### Fixed:
 
-* Problem with the relative path of the phpstan-extension.
+* Problem with the relative path of the PHPStan extension.
