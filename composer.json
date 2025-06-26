@@ -5,6 +5,7 @@
     "vancodx",
     "testing",
     "phpstan",
+    "static analysis",
     "phpunit",
     "mockery"
   ],
@@ -31,10 +32,10 @@
     "php": "^8.3",
     "ext-xdebug": "*",
     "mockery/mockery": "^1.6.12",
-    "phpstan/phpstan": "^2.1.6",
+    "phpstan/phpstan": "^2.1.17",
     "phpstan/phpstan-mockery": "^2.0.0",
-    "phpstan/phpstan-phpunit": "^2.0.4",
-    "phpunit/phpunit": "^12.0.4"
+    "phpstan/phpstan-phpunit": "^2.0.6",
+    "phpunit/phpunit": "^12.2.4"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
