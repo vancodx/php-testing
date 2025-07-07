@@ -7,7 +7,7 @@ use PHPUnit\Framework\AssertionFailedError;
 use UnexpectedValueException;
 use VanCodX\Testing\PHPUnit\TestCase;
 
-class ExpectExceptionTraitTest extends TestCase
+class ExpectExceptionOnCallTraitTest extends TestCase
 {
     /**
      * @return void

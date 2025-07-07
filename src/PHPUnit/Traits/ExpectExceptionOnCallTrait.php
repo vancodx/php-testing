@@ -5,7 +5,7 @@ namespace VanCodX\Testing\PHPUnit\Traits;
 use Exception;
 use Throwable;
 
-trait ExpectExceptionTrait
+trait ExpectExceptionOnCallTrait
 {
     /**
      * @param class-string<Throwable> $exceptionClass

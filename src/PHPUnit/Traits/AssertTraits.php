@@ -4,5 +4,5 @@ namespace VanCodX\Testing\PHPUnit\Traits;
 
 trait AssertTraits
 {
-    use ExpectExceptionTrait;
+    use ExpectExceptionOnCallTrait;
 }
