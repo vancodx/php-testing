@@ -4,6 +4,10 @@ Change Log
 1.7.0
 -----
 
+### Added:
+
+* ExpectExceptionIfNotTrait assertion method set.
+
 ### Modified:
 
 * Renamed: ExpectExceptionTrait -> ExpectExceptionOnCallTrait.
